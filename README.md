@@ -1,4 +1,3 @@
-# chrome-ext-sample
-Sample chrome extension that replaces all links with given text
+# Toast Chrome Extension
+Chrome extension that reads content from your current web page and automatically chooses appropriate GIFs
 
-Made to learn about the way extensions interact with the DOM as practice for a bigger project.
