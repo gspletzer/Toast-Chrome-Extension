@@ -1,22 +1,21 @@
 {
-    "manifest_version": 2,
-    "name": "Chrome Extension Sample",
-    "description": "This extension lets you manipulate the DOM",
-    "version": "1.0",
-    "homepage_url": "https://github.com/dvidsilva/chrome-ext-sample",
-    "browser_action": {
-        "default_icon": "favicon.png",
-        "default_popup": "popup.html",
-        "default_title": "ChromiePop"
-    },
-    "content_scripts": [{
-        "matches": ["<all_urls>"],
-        "all_frames": true,
-        "js":      ["scripts/content.js"]
-    }],
-    "permissions": [
-        "activeTab"
-    ],
-    "content_security_policy": "script-src 'self' https://www.gstatic.com/; object-src 'self'"
+  "manifest_version": 2,
+  "name": "Toast GIF",
+  "description": "Like bread and butter",
+  "version": "1.0",
+  "homepage_url": "https://github.com/dvidsilva/chrome-ext-sample",
+  "browser_action": {
+    "default_icon": "toast.png",
+    "default_popup": "popup.html",
+    "default_title": "ChromiePop"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "all_frames": true,
+      "js": ["scripts/content.js"]
+    }
+  ],
+  "permissions": ["activeTab"],
+  "content_security_policy": "script-src 'self' https://www.gstatic.com/; object-src 'self'"
 }
-
